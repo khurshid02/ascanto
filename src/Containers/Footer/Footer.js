@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container mt-5 mb-5">
         <div className="container">
           <div className="row">
-            <div className="col-3">
+            <div className="col-sm-6 col-md-4 col-lg-3">
               <p>А также вы можете перейти на наш интернет-магазин</p>
               <Button
                 variant="contained"
@@ -21,7 +21,7 @@ const Footer = () => {
                 перейти
               </Button>
             </div>
-            <div className="col-6 text-center">
+            <div className="col-sm-12 col-md-8 col-lg-6 text-center">
               <ul>
                 <li>
                   <a href="https://ascanto.com/#">Главная</a>
@@ -37,7 +37,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-3">
+            <div className="col-sm-8 col-md-5 col-lg-3">
               <p>Мы в социальных сетях</p>
               <div className="row">
                 <div className="icons d-flex justify-content-center align-items-center col-3">
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </div>
           <hr />
-          <div className="d-flex justify-content-lg-between">
+          <div className="d-flex justify-content-between">
             <p>© Все права защищены</p>
             <p>Contact us Privacy & cookies</p>
           </div>
