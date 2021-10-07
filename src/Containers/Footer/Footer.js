@@ -24,16 +24,16 @@ const Footer = () => {
             <div className="col-6 text-center">
               <ul>
                 <li>
-                  <a href="#">Главная</a>
+                  <a href="https://ascanto.com/#">Главная</a>
                 </li>
                 <li>
-                  <a href="#">О нас</a>
+                  <a href="https://ascanto.com/#">О нас</a>
                 </li>
                 <li>
-                  <a href="#">Мужское</a>
+                  <a href="https://ascanto.com/#">Мужское</a>
                 </li>
                 <li>
-                  <a href="#">Женское</a>
+                  <a href="https://ascanto.com/#">Женское</a>
                 </li>
               </ul>
             </div>
