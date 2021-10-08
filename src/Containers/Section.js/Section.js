@@ -85,7 +85,7 @@ const Section = () => {
               </div>
             </div>
             <div className="col-sm-12 col-md-8 col-lg-5">
-              <img src="img5.jpg" alt="" />
+              <img src="img5.jpg" alt="" className="img" />
             </div>
           </div>
         </div>
@@ -132,7 +132,7 @@ const Section = () => {
               </div>
             </div>
             <div className="col-sm-12 col-md-8 col-lg-6 mt-2">
-              <img src="img5.jpg" alt="foto" />
+              <img src="img5.jpg" alt="foto" className="img" />
             </div>
           </div>
         </div>
