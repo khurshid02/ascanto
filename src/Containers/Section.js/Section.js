@@ -5,25 +5,29 @@ import { Input } from "reactstrap";
 import { GoLocation } from "react-icons/go";
 import { HiPhone } from "react-icons/hi";
 import { FaRegEnvelope } from "react-icons/fa";
+import { Slide } from "react-awesome-reveal";
 
 const Section = () => {
   return (
     <SectionWrapper>
       <div>
         <div className="row mt-5">
-          <div className=" col-sm-12 col-lg-6 my-2">
+          <Slide triggerOnce className=" col-sm-12 col-lg-6 my-2">
             <div className="d-flex justify-content-center align-items-end card1 container-fluid">
               <p className="text">женщины</p>
             </div>
-          </div>
-          <div className="col-sm-12 col-lg-6 mt-2">
+          </Slide>
+          <Slide triggerOnce className="col-sm-12 col-lg-6 mt-2">
             <div className=" d-flex justify-content-center align-items-end card2 container-fluid">
               <p>мужчины</p>
             </div>
-          </div>
+          </Slide>
         </div>
         <div className="row mt-2  ">
-          <div className="col-12 row card d-flex justify-content-center align-items-center">
+          <Slide
+            triggerOnce
+            className="col-12 row card d-flex justify-content-center align-items-center"
+          >
             <div className="col-sm-9 col-md-7 col-lg-5 d-flex justify-content-center align-items-center">
               <div className="text-white">
                 <h2 className="text-center">О нас</h2>
@@ -46,9 +50,9 @@ const Section = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </Slide>
         </div>
-        <div className="container mt-5" id="manwoman">
+        <div className="container mt-5">
           <div className="container row">
             <div className="col-sm-12 col-md-8 col-lg-5">
               <img src="img4.jpg" alt="" className="img" />

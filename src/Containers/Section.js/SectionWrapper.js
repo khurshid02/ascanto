@@ -8,7 +8,8 @@ const SectionWrapper = styled.div`
     min-height: 400px;
     color: white;
     p {
-      display: none;
+      opacity: 0;
+      transition: 1s;
     }
   }
 
@@ -19,19 +20,20 @@ const SectionWrapper = styled.div`
     font-size: 26px;
     color: white;
     p {
-      display: none;
+      opacity: 0;
+      transition: 1s;
     }
   }
 
   .card1:hover {
     p {
-      display: block;
+      opacity: 1;
     }
   }
 
   .card2:hover {
     p {
-      display: block;
+      opacity: 1;
     }
   }
 
@@ -40,6 +42,11 @@ const SectionWrapper = styled.div`
     background-size: cover;
     min-height: 800px;
     width: 100%;
+    transition: 3s;
+  }
+
+  Slide {
+    transition: 2s;
   }
 
   .img {
@@ -78,6 +85,11 @@ const SectionWrapper = styled.div`
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
   }
 `;
 
